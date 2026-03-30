@@ -1,0 +1,14 @@
+<div
+    class="homepage-sections-wrapper homepage-sections-wrapper--{{ section.settings.colors }} newsletter--section"
+    data-wetheme-section-type="custom-mail"
+    data-wetheme-section-id="{{ section.id }}"
+    style="display: flex; flex-direction: column;"
+>
+  <div id="newsletter_text">
+    <h2>Your Newsletter Heading</h2>
+    <p>Your newsletter description goes here.</p>
+  </div>
+  <div id="newsletter_form">
+    {% render 'newsletter-form', form_id: 'newsletter_section_form' %}
+  </div>
+</div>
