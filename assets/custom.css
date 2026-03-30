@@ -1,0 +1,448 @@
+
+/*Heading title dsk*/
+  .homepage-sections--title {
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+
+/*Heading title mob*/
+@media only screen and (max-width: 768px) {
+  .homepage-sections--title {
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+#shopify-section-template--22475694244149__63d055aa-9706-43b0-b3c8-49b4a2e53ef9 .btn {
+    margin-top: 10px! important;
+    margin-bottom: 0px! important;
+}}
+
+/* used for para dsk */
+.p, p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #957649;
+ text-transform: uppercase;
+} 
+
+
+/* used for para mob */
+@media only screen and (max-width: 768px) {
+.p, p {
+  font-size: 17px;
+  letter-spacing: 1px !important;
+  font-weight: 400;
+  line-height: 22px;
+  color: #957649!important;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  padding-left: 0px;
+  padding-right: 0px;
+} 
+}
+
+
+/* Section padding mob */
+@media only screen and (max-width: 768px) {
+.shopify-section .homepage-sections-wrapper {
+  padding-top: 30px;
+  padding-bottom: 50px
+}
+}
+
+/*abt page, img&text section dskt*/
+@media only screen and (min-width: 768px) {
+.image-with-text-wrapper .featured-row__subtext p:first-child  {
+    padding-left: 100px! important;
+    padding-right: 100px! important;
+}
+}
+
+
+/*abt page, img&text section mob*/
+@media only screen and (max-width: 768px) {
+#shopify-section-template--22475694244149__image_image_with_text_TAk8xF .h4, #shopify-section-template--22475694244149__image_image_with_text_TAk8xF h4,
+  #shopify-section-template--22475694244149__image_image_with_text_RqYGGD .h4, #shopify-section-template--22475694244149__image_image_with_text_RqYGGD h4 {
+    padding-left: 0px! important;
+    padding-right: 0px! important;
+}
+}
+
+
+
+
+/* buy page hero text mob*/
+@media only screen and (max-width: 768px) {
+  .homepage-content--template--22475693850933__image-with-text-overlay h2.homepage-sections--title {
+    font-size: 40px! important;
+    line-height: 40px! important;
+    color: #957649! important;
+}
+}
+
+
+
+.shopify-section-template--22475694178613__text_rich_text_z3VpAB .btn {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+
+/*newsletter padding mob*/
+@media only screen and (max-width: 768px) {
+.newsletter--section{
+  padding-top: 0px! important;
+  padding-bottom: 0px;
+}
+}
+
+} /* Newsletter Input color */
+.newsletter--section.homepage-sections-wrapper--white #newsletter_submit,
+.newsletter--section.homepage-sections-wrapper--white #newsletter_text,
+.newsletter--section.homepage-sections-wrapper--white
+  #newsletter_text::placeholder {
+  color: #f2ecd8! important;
+} 
+
+
+
+
+
+
+
+/*contact page form*/
+input {
+  font-family: ss Nickson two;
+  border-width: 1px;
+}
+
+textarea {
+  font-family: ss Nickson two;
+}
+
+/* Contact page contact form */
+#shopify-section-template--22475694309685__057a50d5-3fee-4ea2-a832-2d38f47b959a
+  input {
+  font-family: ss Nickson two;
+  border-width: 2px;
+  color: #f3edd9;
+    letter-spacing: 2px;
+}
+/* contact form, about page */
+.homepage-sections-wrapper--white input,
+body .homepage-sections-wrapper--white input::placeholder {
+  color: #f3edd9;
+}
+body .homepage-sections-wrapper--white input, body .homepage-sections-wrapper--white input::placeholder {
+    color: #f3edd9;
+}
+
+/* Image with text overlay section */
+.homepage-content--template--22475694244149__image_image_with_text_overlay_99Beki
+  .featured-row__subtext {
+  font-family: Dallas Regular! important;
+  color: #f3edd9;
+} 
+ 
+/*BUY NOW BUTTON ON SINGLE PRODUCT PAGE CUSTOM*/ 
+.shopify-payment-button__button.shopify-payment-button__button--unbranded: disabled, .shopify-payment-button__button.shopify-payment-button__button--unbranded:hover, .shopify-payment-button__button.shopify-payment-button__button--unbranded[aria-disabled=true] {
+    color: var(--primary-btn-text-color) !important;
+    background-color: var(--primary-btn-bg-color) !important;
+    opacity: 1 !important;
+    font-family: 'SS Nickson One';
+    font-size: 25px !important;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-bottom: 37px;
+}
+.shopify-product-form .shopify-payment-button__button--unbranded {
+      font-family: 'SS Nickson One';
+    font-size: 25px !important;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+#shopify-section-template--22475694309685__057a50d5-3fee-4ea2-a832-2d38f47b959a
+  textarea {
+  font-family: ss Nickson two;
+  color: #f3edd9;
+     letter-spacing: 2px;
+}
+
+/* stockist app */
+
+#stockist-widget .stockist-list-result .stockist-result-name {
+  cursor: pointer;
+  font-family: ss nickson one;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+#stockist-widget .stockist-result .stockist-result-filter {
+  font-weight: 200;
+  font-family: ss nickson six;
+}
+#stockist-widget .stockist-query-entry .stockist-search-field {
+  border: 1px solid #ccc;
+  outline: 0;
+  text-indent: 0;
+  background-color: #f2ecd8;
+  font-family: DIN 2014 Regular;
+}
+.text-link-animated a:not(.spr-icon):not(.standalone-icon--wrapper) {
+  color: #957649;
+  font-family: SS Nickson six;
+}
+
+
+/* bottom footer links mobile display all three lines*/
+@media only screen and (max-width: 768px) {
+    .bottom--footer---links {
+        display: block;
+        text-align: center;
+    }
+    .bottom--footer---links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* SINGLE PRODUCT PAGE*/
+
+/* instafeed arrow send back*/
+@media only screen and (min-width: 768px) {
+.instafeed-new-arrow {
+  color: #957649 !important;
+  z-index: 1 !important;
+}
+}
+
+/* instafeed arrow send back*/
+@media only screen and (max-width: 768px) {
+.instafeed-new-arrow {
+  color: #957649 !important;
+  z-index: 1 !important;
+}
+}
+
+
+/* Age veri*/
+.agp__heading {
+  font-size: 35px! important;
+  font-weight: 400! important;
+  padding-top: 0px! important;
+}
+.agp__message{
+  font-family: SS Nickson two;
+  color: #f2ecd8! important;
+}
+.agp__disclaimer{
+  font-family: Dallas Regular;
+}
+.agp__container input[type=submit]{
+  font-family: Dallas Regular;
+}
+.agp__container img {
+    max-width: 100%;
+    display: block;
+  padding: 40px;
+}
+
+
+/* Home page two buttons customize */
+.btn.homepage-featured-box-btn[href="/pages/locations"] {
+  margin-top: 20px !important;
+} /* Styles for "BUY NOW" button */
+.btn.homepage-featured-box-btn[href="/collections/all"] {
+  margin-bottom: 20px !important;
+}
+
+
+/* PRODUCT PAGE PRODUCT DETAILS, READ MORE ETC.*/
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* This will take care of any space between the two items */
+  margin: 0 auto;
+  max-width: 1200px; /* or the max width you want */
+  padding: 0 10px; /* Add some padding to the container */
+}
+.product {
+  flex: 0 0 calc(50% - 20px); /* Subtract the total gap from 100% and divide by 2 */
+  margin-bottom: 20px; /* spacing between rows */
+  padding: 20px; /* Padding around the content */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+} /* ... rest of your CSS ... */
+@media (max-width: 768px) {
+  .product {
+    flex: 0 0 100%; /* Take full width on mobile */
+    margin-bottom: 20px; /* Maintain spacing between stacked items */
+  }
+} /*====================*/
+.product-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; /* Center-align all content */
+}
+.product-image img {
+  max-width: 100%;
+  height: auto;
+}
+.product-title h1 {
+  font-size: 2em; /* Adjust the size as needed */
+}
+.product-description p {
+  font-size: 1em; /* Adjust the size as needed */
+  color
+}
+.read-more-link {
+  color: #007bff; /* Blue color */
+  text-decoration: underline;
+}
+.more-info p {
+  display: none;
+}
+.product-price p {
+  font-size: 1.5em; /* Adjust the size as needed */
+}
+
+/*EVENT PAGES CONTROL*/
+.events-calendar .events-calendar--header * {
+  font-size: 45px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: -30px;
+}
+
+.event-item--subheading {
+  font-family: ss Nickson six;
+ font-size: 18px;
+  letter-spacing: 2px;
+}
+.event-item--location {
+  font-size: 16px;
+  font-family: ss Nickson six;
+  letter-spacing: 2PX;
+}
+.event-item--heading {
+  font-size: 30px;
+  letter-spacing: 0px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: SS Nickson six;
+}
+.event-cta {
+  font-family: ss Nickson two;
+  padding-bottom: 50px;
+}
+.event-item--date {
+  color: #000000;
+  font-family: ss Nickson six !important;
+  font-size: 18px;
+  letter-spacing: 2px;
+  background: #F1EDD4!important;
+  margin-top: -15px!important;
+  margin-left: -15px!important;
+
+}
+/*UNIVERSAL BUTTON CUSTOMIZE*/
+.btn {
+  font-family: "SS Nickson One", serif;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 5px 20px 7px;
+  color: #ffffff;
+  background-color: #957649 !important;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  clip-path: polygon(0% 25%, 25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%);
+  text-align: center;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/*HEADER NAVIGATION*/
+#shopify-section-sections--22475690443061__header .animated-underline {
+  font-family: ss Nickson one!important;
+  font-size: 22px!important;
+  letter-spacing: 3px!important;
+  font-weight: 400!important;
+}
+
+
+/*POP UP CUSTOMIZE*/
+.fancybox-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.popup--body h2 {
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    font-family: 'SS Nickson one';
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 25px;
+  font-size: 30px;
+}
+.zipcode_input{
+  color: #000000;
+}
+
+#verification__prompt {
+  border: 2px double #957649; /* Inner double border */
+  padding: 25px; /* Space inside the inner border */
+  box-sizing: border-box; /* Ensures padding is included within the element's total width and height */
+  outline: 1px double #957649; /* Outer double border */
+  outline-offset: -8px; /* Moves the outer double border inside */
+}
+
+#prompt__background {
+  padding: 40px! /* Increase padding to move the entire element (borders included) inside */
+}
+
+/*Option button size of collection grid*/
+    #shopify-section-template--23821607010613__product-grid a {
+        font-size: 25px!important;
+    }
+span.price--from-text {
+    font-size: 18px;
+}
+
+.cart--button-update
+{background-color: #F3EDD9!important;
+border-block: none!important;
+}
+
+ .cart--button-checkout{
+  color: black!important;
+  background-color: #957649!important;
+}
+/* Deliver Info */
+.form-field { border-color: #ccc !important; background: transparent !important;}
+.form-field input:focus + label, .form-field input:not(:placeholder-shown) + label{ color: #f3edd9 !important;}
+input:not(.btn):focus, .tip-custom input{ border-bottom: 0 !important;}
+.delivery-info{ margin-bottom: 100px !important;}
+.disabled .form-field { background-color: #4d4d4d !important;}
+#cart-fields>div input{ border: none !important;}
